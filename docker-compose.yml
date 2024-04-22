@@ -1,0 +1,89 @@
+services:
+  db_food:
+    container_name: postgres_food
+    image: postgres:latest
+    volumes:
+      - db_food:/data/postgres
+    ports:
+      - "5433:5432"
+    networks:
+      - dbnet
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=RestoBebraFood
+      - POSTGRES_PASSWORD=RestoBebraFood
+      - POSTGRES_DB=db_food
+
+  db_user:
+    container_name: postgres_user
+    image: postgres:latest
+    volumes:
+      - db_user:/data/postgres
+    ports:
+      - "5434:5432"
+    networks:
+      - dbnet
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=RestoBebraFood
+      - POSTGRES_PASSWORD=RestoBebraFood
+      - POSTGRES_DB=db_user
+
+  db_redis:
+    container_name: db_redis
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    networks:
+      - dbnet
+
+  food-microservice:
+    container_name: food-microservice
+    build:
+      context: ./FoodMicroservice
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/target
+    ports:
+      - "8080:8080"
+    networks:
+      - dbnet
+    depends_on:
+      - db_food
+      - db_redis
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db_food:5432/db_food
+      - SPRING_DATASOURCE_USERNAME=RestoBebraFood
+      - SPRING_DATASOURCE_PASSWORD=RestoBebraFood
+      - SPRING_REDIS_HOST=db_redis
+      - SPRING_REDIS_PORT=6379
+
+  user-microservice:
+    container_name: user-microservice
+    build:
+      context: ./UserMicroservice
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/target
+    ports:
+      - "8080:8080"
+    networks:
+      - dbnet
+    depends_on:
+      - db_user
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db_food:5434/db_user
+      - SPRING_DATASOURCE_USERNAME=RestoBebraFood
+      - SPRING_DATASOURCE_PASSWORD=RestoBebraFood
+      - admin_username=ADMIN
+      - admin_phone=+77777777777
+      - admin_password=ADMIN
+
+networks:
+  dbnet:
+
+volumes:
+  db_food:
+  db_user:

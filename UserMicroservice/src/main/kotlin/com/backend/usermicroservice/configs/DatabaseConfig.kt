@@ -1,4 +1,5 @@
-package com.backend.usermicroservice.Configs
+package com.backend.usermicroservice.configs
 
 class DatabaseConfig {
+//    Будет использовано на стадии деплоя в продакшн
 }
