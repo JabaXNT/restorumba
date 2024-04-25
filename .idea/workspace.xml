@@ -5,37 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52da3257-1164-43c6-8146-7a063e4b18c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/StartUpConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/controllers/AdminUserController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/models/OAuthUser.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/repositories/OAuthUserRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/AdminService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/ApplicationConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/ApplicationConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/DatabaseConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/DatabaseConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/JwtAuthenticationFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/JwtAuthenticationFilter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/SecurityConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/SecurityConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/WebSecurityConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/WebSecurityConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/controllers/AuthenticationController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/controllers/AuthenticationController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMicroservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/controllers/RegistrationController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/controllers/RegistrationController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/controllers/UserController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/controllers/UserController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/models/Role.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/models/Role.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/models/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/models/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/repositories/UserRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/repositories/UserRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/CustomOAuth2UserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/CustomOAuth2UserService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/JwtService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/JwtService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/OAuth2LoginSuccessHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/OAuth2LoginSuccessHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/AdminService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/AdminService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/UserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/UserService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/backend/restorumba/RestorumbaApplication.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/backend/restorumba/RestorumbaApplicationTests.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/test/kotlin/com/backend/usermicroservice/RegistrationAndAuthenticationControllerTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/test/kotlin/com/backend/usermicroservice/RegistrationAndAuthenticationControllerTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +70,13 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="jdkForImporter" value="21" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
         <option name="workspaceImportForciblyTurnedOn" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -111,7 +93,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;JUnit.RegistrationAndAuthenticationControllerTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegistrationAndAuthenticationControllerTests.register new user.executor&quot;: &quot;Debug&quot;,
     &quot;Maven. [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;Maven. [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.FoodMicroservice [--version].executor&quot;: &quot;Run&quot;,
@@ -120,6 +105,8 @@
     &quot;Maven.FoodMicroservice [compile].executor&quot;: &quot;Run&quot;,
     &quot;Maven.UserMicroservice [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.UserMicroservice [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UserMicroservice [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UserMicroservice [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -140,7 +127,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
@@ -169,10 +156,10 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean install" />
-      <command value="mvn --version" />
       <command value="mvn compile" />
       <command value="mvn clean" />
+      <command value="mvn clean install" />
+      <command value="mvn --version" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -184,7 +171,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserMicroserviceApplication">
+  <component name="RunManager">
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <module name="Restorumba" />
       <option name="ENV_FILES" value="" />
@@ -266,7 +253,17 @@
       <workItem from="1713347535750" duration="6436000" />
       <workItem from="1713495307086" duration="16820000" />
       <workItem from="1713584002663" duration="4903000" />
-      <workItem from="1713756844614" duration="6387000" />
+      <workItem from="1713756844614" duration="8557000" />
+      <workItem from="1713853729026" duration="103000" />
+      <workItem from="1713853846852" duration="538000" />
+      <workItem from="1713854396593" duration="575000" />
+      <workItem from="1713854987780" duration="152000" />
+      <workItem from="1713859415473" duration="1645000" />
+      <workItem from="1713962255831" duration="37000" />
+      <workItem from="1713962338608" duration="3280000" />
+      <workItem from="1713973452075" duration="60000" />
+      <workItem from="1713973935019" duration="110000" />
+      <workItem from="1714033003683" duration="850000" />
     </task>
     <servers />
   </component>
@@ -275,6 +272,17 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

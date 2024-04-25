@@ -24,7 +24,7 @@ class AdminService(private val userRepository: UserRepository,
     }
 
     fun adminExists(): Boolean {
-        return userRepository.findByName("admin") != null
+        return userRepository.findByName("ADMIN") != null
     }
 
     fun findUserByUsername(username: String): User? {

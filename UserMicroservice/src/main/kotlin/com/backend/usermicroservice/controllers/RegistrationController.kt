@@ -13,7 +13,7 @@ class RegistrationController(
     private val userService: UserService
 ) {
     @PostMapping("/register")
-    fun register(@RequestBody registrationRequest: RegistrationRequest): ResponseEntity<UserService.UserResponse> {
+    fun register(@RequestBody registrationRequest: RegistrationRequest): ResponseEntity<ResponseEntity<Any>> {
         val userResponse = userService.createUser(registrationRequest)
         return ResponseEntity.ok(userResponse)
     }

@@ -6,6 +6,8 @@ import com.backend.usermicroservice.repositories.UserRepository
 import com.backend.usermicroservice.services.CustomOAuth2UserService
 import com.backend.usermicroservice.services.JwtService
 import org.slf4j.LoggerFactory
+import org.springframework.http.HttpStatus
+import org.springframework.http.ResponseEntity
 import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.stereotype.Service
 
@@ -18,19 +20,23 @@ class UserService(
     data class UserResponse(val user: User, val jwtToken: String)
     private val logger = LoggerFactory.getLogger(CustomOAuth2UserService::class.java)
 
-    fun createUser(request: RegistrationRequest): UserResponse {
+    fun createUser(request: RegistrationRequest): ResponseEntity<Any> {
         val userPassword = passwordEncoder.encode(request.userPassword)
         val phoneNumber = request.phoneNumber
         val name = request.name
 
-        val user =
-            User(name = name, phoneNumber = phoneNumber, userPassword = userPassword)
+        val existingUser = userRepository.findByPhoneNumber(phoneNumber)
+        if (existingUser != null) {
+            logger.error("Error creating user: phone number already in use")
+            return ResponseEntity("Phone number already in use", HttpStatus.I_AM_A_TEAPOT)
+        }
+
+        val user = User(name = name, phoneNumber = phoneNumber, userPassword = userPassword)
         userRepository.save(user)
 
         val jwtToken = jwtService.generateToken(phoneNumber)
-        return UserResponse(user, jwtToken)
+        return ResponseEntity(UserResponse(user, jwtToken), HttpStatus.OK)
     }
-
     fun getUserByUsername(username: String): User? {
         return userRepository.findByName(username)
     }
