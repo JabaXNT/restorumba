@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/UserMicroservice/pom.xml" />
         <option value="$PROJECT_DIR$/WebScrapperMicroservice/pom.xml" />
         <option value="$PROJECT_DIR$/FoodMicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/back/FoodMicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/back/UserMicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../NotificationMicroservice/pom.xml" />
       </list>
     </option>
   </component>

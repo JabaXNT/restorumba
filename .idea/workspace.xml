@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52da3257-1164-43c6-8146-7a063e4b18c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/controllers/RegistrationController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/controllers/RegistrationController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/AdminService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/AdminService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/UserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/UserService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/main/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/test/kotlin/com/backend/usermicroservice/RegistrationAndAuthenticationControllerTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroservice/src/test/kotlin/com/backend/usermicroservice/RegistrationAndAuthenticationControllerTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +101,7 @@
     &quot;Maven.FoodMicroservice [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.FoodMicroservice [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.FoodMicroservice [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.NotificationMicroservice [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.UserMicroservice [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.UserMicroservice [compile].executor&quot;: &quot;Run&quot;,
     &quot;Maven.UserMicroservice [install].executor&quot;: &quot;Run&quot;,
@@ -114,6 +113,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Spring Boot.FoodMicroserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NotificationMicroserviceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.UserMicroserviceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.WebScrapperMicroserviceApplication.executor&quot;: &quot;Run&quot;,
     &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
@@ -121,17 +121,17 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jaba/Desktop/Restorumba&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jaba/Desktop/Restorumba/back/UserMicroservice&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -171,7 +171,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.NotificationMicroserviceApplication">
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <module name="Restorumba" />
       <option name="ENV_FILES" value="" />
@@ -193,6 +193,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotificationMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="NotificationMicroservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.backend.notifictaionmicroservice.NotificationMicroserviceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.backend.notifictaionmicroservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UserMicroservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.backend.usermicroservice.UserMicroserviceApplication" />
@@ -206,6 +219,11 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NotificationMicroserviceApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -263,9 +281,15 @@
       <workItem from="1713962338608" duration="3280000" />
       <workItem from="1713973452075" duration="60000" />
       <workItem from="1713973935019" duration="110000" />
-      <workItem from="1714033003683" duration="850000" />
+      <workItem from="1714033003683" duration="1719000" />
+      <workItem from="1714034769799" duration="1212000" />
+      <workItem from="1714107576635" duration="2130000" />
+      <workItem from="1714110115717" duration="2031000" />
     </task>
     <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="startingDirectory" value="C:\Users\Jaba\Desktop\Restorumba\back\FoodMicroservice" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
