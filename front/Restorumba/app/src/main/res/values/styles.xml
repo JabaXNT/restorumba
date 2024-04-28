@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Switch" parent="Theme.AppCompat.Light">
+
+        <item name="colorControlActivated">#FF222C</item>
+        <item name="colorSwitchThumbNormal">#5A5959</item>
+        <item name="trackColorActive">#FF888E</item>
+        <item name="trackColorInactive">#919191</item>
+    </style>
+    <style name="HeadingText" parent="Theme.AppCompat.Light">
+        <item name="fontFamily">@font/nunito_semibold</item>
+        <item name="android:textColor">#170C10</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="SimpleText" parent="HeadingText">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="SmallText" parent="HeadingText">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/nunito_bold</item>
+    </style>
+</resources>
