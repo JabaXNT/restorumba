@@ -1,9 +1,9 @@
 # Variables representing groups of services
-db = db_notification db_user db_food
+db = db_notification db_user db_food db_redis
 kafka-service = zookeeper kafka kafka-ui
 notification-service = notification-microservice db_notification
 user-service = user-microservice db_user
-food-service = food-microservice db_food db-redis
+food-service = food-microservice db_food db_redis
 
 # Phony targets
 .PHONY: up-db up-kafka up-notification up-user up-food

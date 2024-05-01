@@ -1,0 +1,53 @@
+databaseChangeLog:
+  - changeSet:
+      id: 5
+      author: jabaXNT
+      changes:
+        - createTable:
+            tableName: Foods
+            columns:
+              - column:
+                  name: food_id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: restaurant_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_restaurant_id
+                    referencedTableName: Restaurants
+                    referencedColumnNames: restaurant_id
+              - column:
+                  name: name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: category
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: default_price
+                  type: double
+                  constraints:
+                    nullable: false
+              - column:
+                  name: weight
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: description
+                  type: varchar(100000)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: image_url
+                  type: varchar(255)
+                  constraints:
+                    nullable: false

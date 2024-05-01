@@ -1,0 +1,61 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: jabaXNT
+      changes:
+        - createTable:
+            tableName: Restaurants
+            columns:
+              - column:
+                  name: restaurant_id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: last_updated
+                  type: timestamp
+                  constraints:
+                    nullable: false
+              - column:
+                  name: slug
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+  - changeSet:
+      id: 4
+      author: jabaXNT
+      changes:
+        - createTable:
+            tableName: CityRestaurants
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: city_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_city_id
+                    referencedTableName: Cities
+                    referencedColumnNames: city_id
+              - column:
+                  name: restaurant_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_restaurant_id
+                    referencedTableName: Restaurants
+                    referencedColumnNames: restaurant_id

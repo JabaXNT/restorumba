@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: classpath:/db/changelog/db.changelog-1.0-created-user-table.yaml
+  - include:
+      file: classpath:/db/changelog/db.changelog-2.0-created-oauth-table.yaml

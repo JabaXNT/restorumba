@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: classpath:/db/changelog/db.changelog-1.0-created-city-table.yaml
+  - include:
+      file: classpath:/db/changelog/db.changelog-2.0-created-restaurants-and-relation-table.yaml
+  - include:
+      file: classpath:/db/changelog/db.changelog-3.0-created-food-table.yaml

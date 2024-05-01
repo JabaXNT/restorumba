@@ -3,7 +3,7 @@ package com.backend.foodmicroservice.models
 import jakarta.persistence.*
 
 @Entity
-@Table(name = "Cities", indexes = [Index(name = "index_name", columnList = "name")])
+@Table(name = "Cities")
 data class City (
 
     @Id

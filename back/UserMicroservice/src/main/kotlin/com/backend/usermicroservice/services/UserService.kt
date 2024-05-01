@@ -32,16 +32,20 @@ class UserService(
             logger.error("Error creating user: phone number already in use")
             return ResponseEntity("Phone number already in use", HttpStatus.I_AM_A_TEAPOT)
         }
+        try {
+            val user = User(name = name, phoneNumber = phoneNumber, userPassword = userPassword)
+            userRepository.save(user)
+            val notification = "User with phone number $phoneNumber has been created."
+            kafkaTemplate.send("user-topic", notification)
 
-        val user = User(name = name, phoneNumber = phoneNumber, userPassword = userPassword)
-        userRepository.save(user)
-
-        val notification = "User with phone number $phoneNumber has been created."
-        kafkaTemplate.send("user-topic", notification)
-
-        val jwtToken = jwtService.generateToken(phoneNumber)
-        return ResponseEntity(UserResponse(user, jwtToken), HttpStatus.OK)
+            val jwtToken = jwtService.generateToken(phoneNumber)
+            return ResponseEntity(UserResponse(user, jwtToken), HttpStatus.OK)
+        } catch (e: Exception) {
+            logger.error("Error creating user: ${e.message}")
+            return ResponseEntity("Error creating user", HttpStatus.INTERNAL_SERVER_ERROR)
+        }
     }
+
     fun getUserByUsername(username: String): User? {
         return userRepository.findByName(username)
     }
@@ -52,15 +56,14 @@ class UserService(
         user.name = request.name
         user.phoneNumber = request.phoneNumber
         user.userPassword = passwordEncoder.encode(request.userPassword)
-
-        userRepository.save(user)
-
-        val jwtToken = jwtService.generateToken(user.phoneNumber)
-
-        val notification = mapOf("userId" to user.id, "message" to "Your profile has been updated.")
-        kafkaTemplate.send("notification-topic", notification.toString())
-
-        return UserResponse(user, jwtToken)
+        try {
+            userRepository.save(user)
+            val jwtToken = jwtService.generateToken(user.phoneNumber)
+            return UserResponse(user, jwtToken)
+        } catch (e: Exception) {
+            logger.error("Error updating user: ${e.message}")
+            return null
+        }
     }
 
     fun deleteUser(username: String): Boolean {
