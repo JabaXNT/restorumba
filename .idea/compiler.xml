@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FoodMicroservice" />
         <module name="NotificationMicroservice" />
+        <module name="FoodMicroservice" />
         <module name="UserMicroservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Notification" target="1.5" />
       <module name="WebScrapperMicroservice" target="17" />
     </bytecodeTargetLevel>
   </component>

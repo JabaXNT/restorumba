@@ -5,13 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52da3257-1164-43c6-8146-7a063e4b18c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/back/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/NotificationMicroservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/src/main/kotlin/com/backend/notificationmicroservice/configs/KafkaConsumerConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/src/main/kotlin/com/backend/notificationmicroservice/configs/KafkaProducerConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/src/test/kotlin/com/backend/notificationmicroservice/NotificationMicroserviceApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/KafkaProducerConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Restorumba.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Restorumba.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76/storage_v2/_src_/database/db_user.7LabVg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76/storage_v2/_src_/database/db_user.7LabVg/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76/storage_v2/_src_/database/db_user.7LabVg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76/storage_v2/_src_/database/db_user.7LabVg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroservice/src/main/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/FoodMicroservice/src/test/kotlin/com/backend/foodmicroservice/FoodMicroserviceApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/back/FoodMicroservice/src/test/kotlin/com/backend/foodmicroservice/FoodMicroserviceApplicationTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/UserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/back/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/UserService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +41,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Dockerfile" />
         <option value="Kotlin Enum" />
         <option value="Kotlin Interface" />
+        <option value="Dockerfile" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -66,6 +82,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="jdkForImporter" value="#JAVA_HOME" />
@@ -93,14 +114,18 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Docker.back.db_notification: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.RegistrationAndAuthenticationControllerTests.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.RegistrationAndAuthenticationControllerTests.register new user.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.UserMicroserviceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.up-db.executor&quot;: &quot;Run&quot;,
     &quot;Maven. [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;Maven. [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.FoodMicroservice [--version].executor&quot;: &quot;Run&quot;,
     &quot;Maven.FoodMicroservice [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.FoodMicroservice [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.FoodMicroservice [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.NotificationMicroservice [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.NotificationMicroservice [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.UserMicroservice [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.UserMicroservice [compile].executor&quot;: &quot;Run&quot;,
@@ -112,7 +137,9 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.FoodMicroserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NotificationMicroserviceApplication (1).executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.NotificationMicroserviceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.UserMicroserviceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.WebScrapperMicroserviceApplication.executor&quot;: &quot;Run&quot;,
@@ -121,14 +148,14 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jaba/Desktop/Restorumba/back/UserMicroservice&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jaba/Desktop/Restorumba/back/NotificationMicroservice&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15625&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
@@ -145,9 +172,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jaba\Desktop\Restorumba\back\NotificationMicroservice" />
       <recent name="C:\Users\Jaba\Desktop\Restorumba\FoodMicroservice\src\main\kotlin\com\backend\foodmicroservice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jaba\Desktop\Restorumba\back" />
       <recent name="C:\Users\Jaba\Desktop\Restorumba" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
@@ -158,8 +187,8 @@
     <option name="myCommands">
       <command value="mvn compile" />
       <command value="mvn clean" />
-      <command value="mvn clean install" />
       <command value="mvn --version" />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -171,7 +200,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NotificationMicroserviceApplication">
+  <component name="RunManager" selected="Spring Boot.NotificationMicroserviceApplication (1)">
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <module name="Restorumba" />
       <option name="ENV_FILES" value="" />
@@ -193,15 +222,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotificationMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="NotificationMicroserviceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="NotificationMicroservice" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.backend.notifictaionmicroservice.NotificationMicroserviceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.backend.notifictaionmicroservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.backend.notificationmicroservice.NotificationMicroserviceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,23 +236,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
         <settings />
       </deployment>
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.NotificationMicroserviceApplication" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Spring Boot.NotificationMicroserviceApplication (1)" />
+      <item itemvalue="Spring Boot.FoodMicroserviceApplication" />
+      <item itemvalue="Spring Boot.UserMicroserviceApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -284,7 +313,18 @@
       <workItem from="1714033003683" duration="1719000" />
       <workItem from="1714034769799" duration="1212000" />
       <workItem from="1714107576635" duration="2130000" />
-      <workItem from="1714110115717" duration="2031000" />
+      <workItem from="1714110115717" duration="2316000" />
+      <workItem from="1714140654753" duration="537000" />
+      <workItem from="1714227394527" duration="999000" />
+      <workItem from="1714228559992" duration="405000" />
+      <workItem from="1714228984209" duration="3917000" />
+      <workItem from="1714367211899" duration="3963000" />
+      <workItem from="1714377233858" duration="47000" />
+      <workItem from="1714377326824" duration="9340000" />
+      <workItem from="1714403326200" duration="1147000" />
+      <workItem from="1714404485190" duration="835000" />
+      <workItem from="1714483702706" duration="74000" />
+      <workItem from="1714574379568" duration="306000" />
     </task>
     <servers />
   </component>
