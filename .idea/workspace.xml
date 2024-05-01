@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52da3257-1164-43c6-8146-7a063e4b18c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/back/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/NotificationMicroservice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/src/main/kotlin/com/backend/notificationmicroservice/configs/KafkaConsumerConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/src/main/kotlin/com/backend/notificationmicroservice/configs/KafkaProducerConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/src/test/kotlin/com/backend/notificationmicroservice/NotificationMicroserviceApplicationTests.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/configs/KafkaProducerConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Restorumba.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Restorumba.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76/storage_v2/_src_/database/db_user.7LabVg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76/storage_v2/_src_/database/db_user.7LabVg/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76/storage_v2/_src_/database/db_user.7LabVg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/384fe707-9671-4db6-9bee-25696ac72b76/storage_v2/_src_/database/db_user.7LabVg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/FoodMicroservice/src/test/kotlin/com/backend/foodmicroservice/FoodMicroserviceApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/back/FoodMicroservice/src/test/kotlin/com/backend/foodmicroservice/FoodMicroserviceApplicationTests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/UserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/back/UserMicroservice/src/main/kotlin/com/backend/usermicroservice/services/UserService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/NotificationMicroservice/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +301,7 @@
       <workItem from="1714403326200" duration="1147000" />
       <workItem from="1714404485190" duration="835000" />
       <workItem from="1714483702706" duration="74000" />
-      <workItem from="1714574379568" duration="306000" />
+      <workItem from="1714574379568" duration="615000" />
     </task>
     <servers />
   </component>
