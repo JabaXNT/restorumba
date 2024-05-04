@@ -1,0 +1,57 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: db-food-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgres-food
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: postgres-food
+  template:
+    metadata:
+      labels:
+        app: postgres-food
+    spec:
+      containers:
+        - name: postgres-food
+          image: postgres:latest
+          ports:
+            - containerPort: 5432
+          env:
+            - name: POSTGRES_USER
+              value: RestoBebraFood
+            - name: POSTGRES_PASSWORD
+              value: RestoBebraFood
+            - name: POSTGRES_DB
+              value: db_food
+          volumeMounts:
+            - mountPath: /data/postgres
+              name: db-food-volume
+      volumes:
+        - name: db-food-volume
+          persistentVolumeClaim:
+            claimName: db-food-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres-food
+spec:
+  selector:
+    app: postgres-food
+  ports:
+    - protocol: TCP
+      port: 5432
+      targetPort: 5432

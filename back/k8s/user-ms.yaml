@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: user-microservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: user-microservice
+  template:
+    metadata:
+      labels:
+        app: user-microservice
+    spec:
+      containers:
+        - name: user-microservice
+          image: jabaxnt/user-microservice:latest
+          ports:
+            - containerPort: 8060
+          env:
+            - name: DATABASE_URL
+              value: postgres-user
+            - name: SPRING_DATASOURCE_USERNAME
+              value: RestoBebraFood
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: RestoBebraFood
+            - name: admin_username
+              value: ADMIN
+            - name: admin_phone
+              value: "+77777777777"
+            - name: admin_password
+              value: ADMIN
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: user-microservice
+spec:
+  selector:
+    app: user-microservice
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8060
