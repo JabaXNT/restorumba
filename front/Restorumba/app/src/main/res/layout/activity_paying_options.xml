@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/main"
     android:background="@drawable/light_theme_background">
 
     <TextView
@@ -78,5 +79,21 @@
             app:layout_constraintTop_toTopOf="@+id/textView24"
             android:layout_marginEnd="30dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#FF222C"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center_horizontal"
+        android:paddingTop="2dp"
+        android:text="Назад"
+        android:textSize="16sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="35dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

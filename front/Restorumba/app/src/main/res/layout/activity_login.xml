@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/light_theme_background">
@@ -32,10 +33,10 @@
             android:layout_height="7dp"
             android:background="@drawable/underline"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/textView"
-            app:layout_constraintStart_toStartOf="@+id/textView" />
+            app:layout_constraintEnd_toEndOf="@+id/link_to_login"
+            app:layout_constraintStart_toStartOf="@+id/link_to_login" />
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/link_to_login"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:fontFamily="@font/nunito"
@@ -49,12 +50,14 @@
             android:layout_marginBottom="11dp"/>
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/link_to_reg"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginStart="14dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/nunito"
+            android:clickable="true"
+            android:focusable="true"
             android:text="Регистрация"
             android:textColor="#170C10"
             android:textSize="20sp"

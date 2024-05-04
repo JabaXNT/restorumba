@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/main"
     android:background="@drawable/light_theme_background">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/link_to_order"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
@@ -19,16 +20,17 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="108dp"
         android:layout_height="30dp"
-        android:fontFamily="@font/nunito_semibold"
         android:layout_marginStart="75dp"
+        android:fontFamily="@font/nunito_semibold"
         android:text="Профиль"
         android:textColor="#170C10"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="@+id/imageButton"/>
+        app:layout_constraintBottom_toBottomOf="@+id/link_to_order"
+        app:layout_constraintStart_toEndOf="@+id/link_to_order"
+        app:layout_constraintTop_toTopOf="@+id/link_to_order" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -39,7 +41,7 @@
         android:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/link_to_order"
         tools:ignore="MissingConstraints">
 
         <ImageView
@@ -54,7 +56,7 @@
             app:layout_constraintTop_toTopOf="parent"/>
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/link_to_login"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginStart="14dp"
@@ -75,9 +77,10 @@
             android:textColor="#170C10"
             android:textSize="15sp"
             app:layout_constraintStart_toEndOf="@+id/imageView"
-            app:layout_constraintTop_toBottomOf="@+id/textView"/>
+            app:layout_constraintTop_toBottomOf="@+id/link_to_login"/>
 
         <ImageButton
+            android:id="@+id/link_to_edit"
             android:layout_width="18dp"
             android:layout_height="18dp"
             android:layout_marginEnd="25dp"
@@ -88,7 +91,9 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/linearLayout"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/link_to_order_history"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
@@ -122,6 +127,9 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/link_to_settings"
+        android:clickable="true"
+        android:focusable="true"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginTop="45dp"
@@ -129,7 +137,7 @@
         android:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+        app:layout_constraintTop_toBottomOf="@+id/link_to_paying_options">
 
         <TextView
             android:layout_width="wrap_content"
@@ -156,7 +164,9 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/linearLayout2"
+        android:id="@+id/link_to_paying_options"
+        android:clickable="true"
+        android:focusable="true"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginTop="45dp"
@@ -164,7 +174,7 @@
         android:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        app:layout_constraintTop_toBottomOf="@+id/link_to_order_history">
 
         <TextView
             android:id="@+id/textView2"
@@ -188,4 +198,20 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginStart="280dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#FF222C"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center_horizontal"
+        android:paddingTop="2dp"
+        android:text="Выйти"
+        android:textSize="16sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="35dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

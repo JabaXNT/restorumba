@@ -2,7 +2,7 @@
     <string name="app_name" translatable="false">Restorumba</string>
     <string name="old_price" translatable="false">429₽</string>
     <string name="current_price" translatable="false">359₽</string>
-    <string name="current_dish" translatable="true" formatted="true">Филе воды</string>
+    <string name="current_dish" formatted="true" translatable="true">Филе воды</string>
     <string name="desc_title" translatable="true">Описание:</string>
     <string name="dish_description" translatable="true">Нежнейшее филе воды в собственном соку.
         Подается с хрустящими хлебными палочками.</string>
@@ -10,6 +10,7 @@
     <string name="settings">Настройки</string>
     <string name="dark_mode_switch">Темная тема</string>
     <string name="smartphone_vibration_switch">Вибрация</string>
+    <string name="delete_account">Удалить аккаунт</string>
     <string name="paying_options">Способы оплаты</string>
     <string name="card_option">Карта</string>
     <string name="fps">СБП</string>
@@ -18,5 +19,15 @@
     <string name="amount" translatable="false">1</string>
     <string name="order">Заказать</string>
     <string name="order_history">История заказов</string>
+    <string name="edit">Редактирование</string>
+    <string name="save">Сохранить</string>
+    <string name="name">Имя</string>
+    <string name="user_name">Иван</string>
+    <string name="user_password">*****</string>
+    <string name="password">Пароль</string>
+    <string name="email">Почта</string>
+    <string name="phone">Телефон</string>
+    <string name="user_phone">8800553535</string>
+    <string name="user_email">example@mail.ru</string>
 
 </resources>
