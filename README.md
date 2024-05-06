@@ -1,4 +1,3 @@
-![Restorumba(A_student's_project_for_Alpha_Bank)](https://github.com/JabaXNT/Restorumba/assets/74655944/d49e7bf8-517a-4341-88ef-7ff3cb2e9d2d)
 
 # Restorumba is a revolutionary mobile app for those who value their time at restaurant's and at home.
 
