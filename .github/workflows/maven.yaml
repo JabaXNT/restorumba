@@ -24,4 +24,4 @@ jobs:
         with:
           context: ./back/UserMicroservice
           push: true
-          tags: ghcr.io/JabaXNT/restorumba/user-microservice:latest
+          tags: ghcr.io/${{ github.repository }}/user-microservice:latest
