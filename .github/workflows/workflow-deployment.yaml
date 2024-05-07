@@ -1,0 +1,41 @@
+name: Build and Push Docker Image
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Log into GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push FoodMicroservice Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: ./back/UserMicroservice
+          push: true
+          tags: ghcr.io/JabaXNT/restorumba/food-microservice:latest
+
+      - name: Build and push UserMicroservice Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: ./back/FoodMicroservice
+          push: true
+          tags: ghcr.io/JabaXNT/restorumba/user-microservice:latest
+
+      - name: Build and push NotificationMicroservice Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: ./back/NotificationMicroservice
+          push: true
+          tags: ghcr.io/JabaXNT/restorumba/notification-microservice:latest
