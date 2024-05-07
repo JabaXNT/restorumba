@@ -19,9 +19,23 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build and push Docker image
+      - name: Build and push FoodMicroservice Docker image
         uses: docker/build-push-action@v2
         with:
           context: ./back/UserMicroservice
           push: true
+          tags: ghcr.io/JabaXNT/restorumba/food-microservice:latest
+
+      - name: Build and push UserMicroservice Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: ./back/FoodMicroservice
+          push: true
           tags: ghcr.io/JabaXNT/restorumba/user-microservice:latest
+
+      - name: Build and push NotificationMicroservice Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: ./back/NotificationMicroservice
+          push: true
+          tags: ghcr.io/JabaXNT/restorumba/notification-microservice:latest
