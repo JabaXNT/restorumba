@@ -17,50 +17,114 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <androidx.appcompat.widget.SwitchCompat
-        android:id="@+id/dark_mode_switch"
-        android:layout_width="270dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
-        android:fontFamily="@font/nunito_semibold"
-        android:text="@string/dark_mode_switch"
-        android:textColor="#170C10"
-        android:textSize="20sp"
-        android:theme="@style/Switch"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="321dp"
+        android:layout_height="229dp"
+        android:layout_marginTop="47dp"
+        android:background="@drawable/rounded_rectangle_20_radius_shape"
+        android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/heading_text"/>
+        app:layout_constraintTop_toBottomOf="@+id/heading_text">
 
-    <androidx.appcompat.widget.SwitchCompat
-        android:id="@+id/vibration_switch"
-        android:layout_width="270dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:fontFamily="@font/nunito_semibold"
-        android:text="@string/smartphone_vibration_switch"
-        android:textColor="#170C10"
-        android:textSize="20sp"
-        android:theme="@style/Switch"
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/dark_mode_switch"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/dark_mode_switch"
+            android:textColor="#170C10"
+            android:textSize="18sp"
+            android:theme="@style/Switch"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/vibration_switch"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/smartphone_vibration_switch"
+            android:textColor="#170C10"
+            android:textSize="18sp"
+            android:theme="@style/Switch"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dark_mode_switch" />
+
+        <TextView
+            android:id="@+id/delete_button"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/delete_account"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:theme="@style/Switch"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vibration_switch" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/delete_menu"
+        android:layout_width="246dp"
+        android:layout_height="142dp"
+        android:background="@drawable/rounded_rectangle_20_radius_shape"
+        android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dark_mode_switch" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout6"
+        android:layout_marginTop="6dp"
+        android:visibility="gone">
 
-    <TextView
-        android:id="@+id/delete_button"
-        android:layout_width="270dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:fontFamily="@font/nunito_semibold"
-        android:text="@string/delete_account"
-        android:textColor="#FF0000"
-        android:textSize="20sp"
-        android:theme="@style/Switch"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vibration_switch"
-        android:focusable="true"
-        android:clickable="true"/>
+        <ImageButton
+            android:id="@+id/close_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_cross"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="13dp"/>
 
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/nunito"
+            android:gravity="center_horizontal"
+            android:text="@string/warning"
+            android:textSize="20sp"
+            android:textColor="#170C10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/delete_submit"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito"
+            android:gravity="center_horizontal"
+            android:text="@string/delete"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="#FF0404"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:layout_marginTop="14dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
     <Button
         android:id="@+id/back"
         android:layout_width="150dp"
@@ -69,7 +133,7 @@
         android:fontFamily="@font/nunito_bold"
         android:gravity="center_horizontal"
         android:paddingTop="2dp"
-        android:text="Назад"
+        android:text="@string/back"
         android:textSize="16sp"
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"

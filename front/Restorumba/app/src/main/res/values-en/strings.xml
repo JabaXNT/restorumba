@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Login</string>
+    <string name="to_login">Log in</string>
+    <string name="reg">Registration</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="user_name">John</string>
+    <string name="user_surname">Smith</string>
+    <string name="to_reg">Register</string>
+    <string name="address">Address</string>
+    <string name="warning">Are you sure?</string>
+    <string name="delete">Delete account</string>
+    <string name="settings">Settings</string>
+    <string name="dark_mode_switch">Dark theme</string>
+    <string name="smartphone_vibration_switch">Smartphone shaking</string>
+    <string name="delete_account">Delete account</string>
+    <string name="payment_options">Payment options</string>
+    <string name="card_option">Card</string>
+    <string name="fps">FPS</string>
+    <string name="add_new_card">Add new card</string>
+    <string name="basket">Basket</string>
+    <string name="order">Make order</string>
+    <string name="order_history">Order history</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="surname">Surname</string>
+    <string name="drinks">Drinks</string>
+    <string name="salads">Salads</string>
+    <string name="snacks">Snacks</string>
+    <string name="combos">Combo</string>
+    <string name="back">Back</string>
+    <string name="profile">Profile</string>
+    <string name="exit">Exit</string>
+</resources>

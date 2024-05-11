@@ -1,17 +1,49 @@
 <resources>
-    <string name="app_name" translatable="false">Restorumba</string>
+    #Login Strings
+    <string name="login" translatable="true">Вход</string>
+    <string name="to_login" translatable="true">Войти</string>
+    <string name="reg" translatable="true">Регистрация</string>
+    <string name="phone">Телефон</string>
+    <string name="password">Пароль</string>
+    <string name="user_phone" translatable="false">8800553535</string>
+    <string name="user_password" translatable="false">*********</string>
+    #Reg Strings
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="user_name">Иван</string>
+    <string name="user_surname">Иванов</string>
+    <string name="to_reg">Зарегистрироваться</string>
+    #Order Strings
+    <string name="address">Адрес</string>
+    <string name="drinks">Напитки</string>
+    <string name="salads">Салаты</string>
+    <string name="snacks">Снеки</string>
+    <string name="combos">Комбо</string>
+    #Profile Strings
+    <string name="profile">Профиль</string>
+    <string name="exit">Выйти</string>
+    #Settings Strings
+    <string name="back">Назад</string>
+    <string name="warning">Вы уверены в своем выборе?</string>
+    <string name="delete">Удалить аккаунт</string>
+    #Paying Options Strings
+
+    #Edit Profile Strings
+
+    #Basket Strings
+    <string name="app_name" translatable="false">Ресторумба</string>
     <string name="old_price" translatable="false">429₽</string>
     <string name="current_price" translatable="false">359₽</string>
-    <string name="current_dish" formatted="true" translatable="true">Филе воды</string>
-    <string name="desc_title" translatable="true">Описание:</string>
-    <string name="dish_description" translatable="true">Нежнейшее филе воды в собственном соку.
+    <string name="current_dish" translatable="false">Филе воды</string>
+    <string name="desc_title" translatable="false">Описание:</string>
+    <string name="dish_description" translatable="false">Нежнейшее филе воды в собственном соку.
         Подается с хрустящими хлебными палочками.</string>
     <string name="button_text" translatable="false">Bamboo</string>
     <string name="settings">Настройки</string>
     <string name="dark_mode_switch">Темная тема</string>
-    <string name="smartphone_vibration_switch">Вибрация</string>
+    <string name="smartphone_vibration_switch">Тряска смартфона</string>
     <string name="delete_account">Удалить аккаунт</string>
-    <string name="paying_options">Способы оплаты</string>
+    <string name="payment_options">Способы оплаты</string>
     <string name="card_option">Карта</string>
     <string name="fps">СБП</string>
     <string name="add_new_card">Привязать новую карту</string>
@@ -21,13 +53,6 @@
     <string name="order_history">История заказов</string>
     <string name="edit">Редактирование</string>
     <string name="save">Сохранить</string>
-    <string name="name">Имя</string>
-    <string name="user_name">Иван</string>
-    <string name="user_password">*****</string>
-    <string name="password">Пароль</string>
     <string name="email">Почта</string>
-    <string name="phone">Телефон</string>
-    <string name="user_phone">8800553535</string>
-    <string name="user_email">example@mail.ru</string>
-
+    <string name="user_email" translatable="false">example@mail.ru</string>
 </resources>

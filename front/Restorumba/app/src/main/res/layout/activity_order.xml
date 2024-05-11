@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:fontFamily="@font/nunito_semibold"
-        android:text="Адрес"
+        android:text="@string/address"
         android:textColor="#170C10"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
@@ -59,7 +59,7 @@
             android:layout_marginStart="21dp"
             android:layout_marginTop="7dp"
             android:fontFamily="@font/nunito_bold"
-            android:text="Напитки"
+            android:text="@string/drinks"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -71,7 +71,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="7dp"
             android:fontFamily="@font/nunito_bold"
-            android:text="Комбо"
+            android:text="@string/combos"
             android:textSize="16sp"
             app:layout_constraintStart_toEndOf="@+id/textView5"
             app:layout_constraintTop_toTopOf="parent" />
@@ -83,7 +83,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="7dp"
             android:fontFamily="@font/nunito_bold"
-            android:text="Снеки"
+            android:text="@string/snacks"
             android:textSize="16sp"
             app:layout_constraintStart_toEndOf="@+id/textView6"
             app:layout_constraintTop_toTopOf="parent" />
@@ -94,7 +94,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="7dp"
             android:fontFamily="@font/nunito_bold"
-            android:text="Салаты"
+            android:text="@string/salads"
             android:textSize="16sp"
             app:layout_constraintStart_toEndOf="@+id/textView15"
             app:layout_constraintTop_toTopOf="parent" />
