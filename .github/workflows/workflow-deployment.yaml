@@ -25,14 +25,14 @@ jobs:
       - name: Build and push FoodMicroservice Docker image
         uses: docker/build-push-action@v2
         with:
-          context: ./back/UserMicroservice
+          context: ./back/FoodMicroservice
           push: true
           tags: ghcr.io/jabaxnt/restorumba/food-microservice:latest
 
       - name: Build and push UserMicroservice Docker image
         uses: docker/build-push-action@v2
         with:
-          context: ./back/FoodMicroservice
+          context: ./back/UserMicroservice
           push: true
           tags: ghcr.io/jabaxnt/restorumba/user-microservice:latest
 
