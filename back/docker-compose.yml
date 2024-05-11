@@ -88,9 +88,12 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db_user:5432/db_user
       - SPRING_DATASOURCE_USERNAME=RestoBebraFood
       - SPRING_DATASOURCE_PASSWORD=RestoBebraFood
-      - admin_username=ADMIN
-      - admin_phone=+77777777777
-      - admin_password=ADMIN
+      - ADMIN_USERNAME=ADMIN
+      - ADMIN_PHONE=+77777777777
+      - ADMIN_PASSWORD=ADMIN
+      - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_GOOGLE_CLIENT_ID=414447960098-v41o6hhfulreq35e5sfjrf9vje38l8nt.apps.googleusercontent.com
+      - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_GOOGLE_CLIENT_SECRET=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
+      - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_GOOGLE_REDIRECT_URI={baseUrl}/login/oauth2/code/google
 
   notification-microservice:
     container_name: notification-microservice

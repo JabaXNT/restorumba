@@ -1,7 +1,5 @@
 package com.backend.usermicroservice.services
 
-import com.backend.usermicroservice.UserService
-import com.backend.usermicroservice.controllers.RegistrationRequest
 import com.backend.usermicroservice.models.OAuthUser
 import com.backend.usermicroservice.repositories.OAuthUserRepository
 import org.slf4j.LoggerFactory
