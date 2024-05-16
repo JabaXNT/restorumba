@@ -85,6 +85,7 @@ services:
     depends_on:
       - db_user
     environment:
+      - SPRING_KAFKA_PRODUCER_BOOTSTRAP-SERVERS=kafka:9092
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db_user:5432/db_user
       - SPRING_DATASOURCE_USERNAME=RestoBebraFood
       - SPRING_DATASOURCE_PASSWORD=RestoBebraFood
@@ -108,6 +109,7 @@ services:
     depends_on:
       - db_notification
     environment:
+      - SPRING_KAFKA_PRODUCER_BOOTSTRAP-SERVERS=kafka:9092
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db_notification:5432/db_notification
       - SPRING_DATASOURCE_USERNAME=RestoBebraFood
       - SPRING_DATASOURCE_PASSWORD=RestoBebraFood
