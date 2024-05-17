@@ -3,7 +3,9 @@ package com.example.restorumba
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -20,6 +22,10 @@ class RegActivity : AppCompatActivity() {
             insets
         }
 
+        val nameInput: EditText = findViewById(R.id.nameInput)
+        val phoneInput: EditText = findViewById(R.id.phoneInput)
+        val passwordInput: EditText = findViewById(R.id.passwordInput)
+
         val button: Button = findViewById(R.id.button)
         val linkToLogin: TextView = findViewById(R.id.link_to_login)
 
@@ -30,9 +36,18 @@ class RegActivity : AppCompatActivity() {
         }
 
         button.setOnClickListener {
-            val intent = Intent(this, OrderActivity::class.java)
-            startActivity(intent)
-            finish()
+            val name = nameInput.text.toString().trim()
+            val password = passwordInput.text.toString().trim()
+            val phone = phoneInput.text.toString().trim()
+            val text = getResources().getString(R.string.empty_fields);
+
+            if (name == "" || password == "" || phone == "") {
+                Toast.makeText(this, text, Toast.LENGTH_SHORT).show()
+            } else {
+                val intent = Intent(this, OrderActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
         }
     }
 }

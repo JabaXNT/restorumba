@@ -4,6 +4,7 @@
     <string name="to_login">Log in</string>
     <string name="reg">Registration</string>
     <string name="password">Password</string>
+    <string name="empty_fields">Empty fields</string>
     <string name="name">Name</string>
     <string name="user_name">John</string>
     <string name="user_surname">Smith</string>

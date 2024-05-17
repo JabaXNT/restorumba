@@ -1,7 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Restorumba" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.Restorumba" />
+
+    <style name="ScreenBackground"><item name="android:background">@drawable/night_theme_background</item></style>
+    <style name="TextColor"><item name="android:textColor">@color/white</item></style>
+    <style name="HintTextColor"><item name="android:textColor">@color/white</item></style>
+    <style name="PriceColor"><item name="android:textColor">@color/yellow</item></style>
+    <style name="IconColor"><item name="android:background">@color/white</item></style>
+    <style name="RadioColor">
+        <item name="android:textColor">@color/white</item>
+        <item name="buttonTint">@color/white</item>
+    </style>
+    <style name="CardBackground"><item name="android:background">@color/darker_grey</item></style>
+    <style name="Splash">
+        <item name="android:background">@drawable/dark_preview</item>
     </style>
 </resources>

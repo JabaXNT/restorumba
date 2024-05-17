@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main"
-    android:background="@drawable/light_theme_background">
+    style="@style/ScreenBackground">
 
     <ImageButton
         android:id="@+id/link_to_order"
@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
         android:layout_marginTop="32dp"
-        android:background="@android:color/transparent"
-        android:src="@drawable/ic_home"
+        android:background="@drawable/ic_home"
+        style="@style/IconColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_semibold"
         android:text="@string/profile"
-        android:textColor="#170C10"
+        style="@style/TextColor"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/link_to_order"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
         android:layout_height="197dp"
         android:layout_marginTop="45dp"
         android:background="@drawable/rounded_rectangle_20_radius_shape"
-        android:backgroundTint="#FFFFFF"
+        style="@style/CardBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/link_to_order"
@@ -60,7 +60,7 @@
             android:layout_marginStart="14dp"
             android:fontFamily="@font/nunito_semibold"
             android:text="@string/user_name"
-            android:textColor="#170C10"
+            style="@style/TextColor"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@+id/imageView"
             app:layout_constraintTop_toTopOf="@+id/imageView"/>
@@ -72,7 +72,7 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/nunito_semibold"
             android:text="@string/user_phone"
-            android:textColor="#170C10"
+            style="@style/TextColor"
             android:textSize="15sp"
             app:layout_constraintStart_toEndOf="@+id/imageView"
             app:layout_constraintTop_toBottomOf="@+id/link_to_login"/>
@@ -84,6 +84,7 @@
             android:layout_marginEnd="25dp"
             android:layout_marginBottom="25dp"
             android:background="@drawable/ic_edit_button"
+            style="@style/IconColor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -96,7 +97,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/rounded_rectangle_20_radius_shape"
-        android:backgroundTint="#FFFFFF"
+        style="@style/CardBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
@@ -108,7 +109,7 @@
             android:fontFamily="@font/nunito_semibold"
             android:text="@string/order_history"
             android:textSize="16sp"
-            android:textColor="#170C10"
+            style="@style/TextColor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -119,6 +120,7 @@
             android:layout_height="10dp"
             android:layout_marginStart="280dp"
             android:background="@drawable/ic_arrow"
+            style="@style/IconColor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
@@ -132,7 +134,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="45dp"
         android:background="@drawable/rounded_rectangle_20_radius_shape"
-        android:backgroundTint="#FFFFFF"
+        style="@style/CardBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/link_to_paying_options">
@@ -143,7 +145,7 @@
             android:fontFamily="@font/nunito_semibold"
             android:text="@string/settings"
             android:textSize="16sp"
-            android:textColor="#170C10"
+            style="@style/TextColor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -154,6 +156,7 @@
             android:layout_width="6dp"
             android:layout_height="12dp"
             android:background="@drawable/ic_arrow"
+            style="@style/IconColor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -169,7 +172,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="45dp"
         android:background="@drawable/rounded_rectangle_20_radius_shape"
-        android:backgroundTint="#FFFFFF"
+        style="@style/CardBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/link_to_order_history">
@@ -181,7 +184,7 @@
             android:fontFamily="@font/nunito_semibold"
             android:text="@string/payment_options"
             android:textSize="16sp"
-            android:textColor="#170C10"
+            style="@style/TextColor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -191,6 +194,7 @@
             android:layout_width="6dp"
             android:layout_height="12dp"
             android:background="@drawable/ic_arrow"
+            style="@style/IconColor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"

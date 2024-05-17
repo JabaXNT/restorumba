@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main"
-    android:background="@drawable/light_theme_background">
+    style="@style/ScreenBackground">
 
     <TextView
         android:id="@+id/textView23"
@@ -13,7 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="33dp"
         android:text="@string/payment_options"
-        android:theme="@style/HeadingText"
+        style="@style/TextColor"
+        android:textSize="24sp"
+        android:fontFamily="@font/nunito_semibold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -42,19 +44,21 @@
                 android:layout_height="wrap_content"
                 android:paddingStart="20dp"
                 android:text="@string/card_option"
-                android:theme="@style/SimpleText"
-                tools:ignore="RtlSymmetry"
-                android:buttonTint="#170C10"/>
+                android:textSize="20sp"
+                android:fontFamily="@font/nunito_semibold"
+                style="@style/RadioColor"
+                tools:ignore="RtlSymmetry"/>
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="40dp"
                 android:paddingStart="20dp"
                 android:text="@string/fps"
-                android:theme="@style/SimpleText"
+                android:textSize="20sp"
+                android:fontFamily="@font/nunito_semibold"
                 tools:ignore="RtlSymmetry"
-                android:buttonTint="#170C10"/>
+                style="@style/RadioColor"/>
         </RadioGroup>
 
         <TextView
@@ -65,7 +69,9 @@
             android:layout_marginTop="40dp"
             android:layout_marginBottom="30dp"
             android:text="@string/add_new_card"
-            android:theme="@style/SimpleText"
+            android:textSize="20sp"
+            android:fontFamily="@font/nunito_semibold"
+            style="@style/TextColor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
@@ -74,6 +80,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_arrow"
+            style="@style/IconColor"
             app:layout_constraintBottom_toBottomOf="@+id/textView24"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView24"

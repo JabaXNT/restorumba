@@ -1,4 +1,6 @@
 <resources>
+    <string name="app_name" translatable="false">Ресторумба</string>
+
     #Login Strings
     <string name="login" translatable="true">Вход</string>
     <string name="to_login" translatable="true">Войти</string>
@@ -7,52 +9,57 @@
     <string name="password">Пароль</string>
     <string name="user_phone" translatable="false">8800553535</string>
     <string name="user_password" translatable="false">*********</string>
+    <string name="empty_fields">Пустые поля</string>
+
     #Reg Strings
     <string name="name">Имя</string>
     <string name="surname">Фамилия</string>
     <string name="user_name">Иван</string>
     <string name="user_surname">Иванов</string>
     <string name="to_reg">Зарегистрироваться</string>
+
     #Order Strings
     <string name="address">Адрес</string>
     <string name="drinks">Напитки</string>
     <string name="salads">Салаты</string>
     <string name="snacks">Снеки</string>
     <string name="combos">Комбо</string>
-    #Profile Strings
-    <string name="profile">Профиль</string>
-    <string name="exit">Выйти</string>
-    #Settings Strings
-    <string name="back">Назад</string>
-    <string name="warning">Вы уверены в своем выборе?</string>
-    <string name="delete">Удалить аккаунт</string>
-    #Paying Options Strings
-
-    #Edit Profile Strings
-
-    #Basket Strings
-    <string name="app_name" translatable="false">Ресторумба</string>
+    <string name="dish_description" translatable="false">Нежнейшее филе воды в собственном соку.
+        Подается с хрустящими хлебными палочками.</string>
     <string name="old_price" translatable="false">429₽</string>
     <string name="current_price" translatable="false">359₽</string>
     <string name="current_dish" translatable="false">Филе воды</string>
     <string name="desc_title" translatable="false">Описание:</string>
-    <string name="dish_description" translatable="false">Нежнейшее филе воды в собственном соку.
-        Подается с хрустящими хлебными палочками.</string>
     <string name="button_text" translatable="false">Bamboo</string>
+
+    #Profile Strings
+    <string name="profile">Профиль</string>
+    <string name="exit">Выйти</string>
+    <string name="order_history">История заказов</string>
+    <string name="payment_options">Способы оплаты</string>
     <string name="settings">Настройки</string>
+
+    #Settings Strings
+    <string name="back">Назад</string>
+    <string name="warning">Вы уверены в своем выборе?</string>
+    <string name="delete">Удалить аккаунт</string>
     <string name="dark_mode_switch">Темная тема</string>
     <string name="smartphone_vibration_switch">Тряска смартфона</string>
     <string name="delete_account">Удалить аккаунт</string>
-    <string name="payment_options">Способы оплаты</string>
+
+    #Paying Options Strings
     <string name="card_option">Карта</string>
     <string name="fps">СБП</string>
     <string name="add_new_card">Привязать новую карту</string>
-    <string name="basket">Корзина</string>
-    <string name="amount" translatable="false">1</string>
-    <string name="order">Заказать</string>
-    <string name="order_history">История заказов</string>
+
+    #Edit Profile Strings
     <string name="edit">Редактирование</string>
     <string name="save">Сохранить</string>
     <string name="email">Почта</string>
     <string name="user_email" translatable="false">example@mail.ru</string>
+
+    #Basket Strings
+    <string name="basket">Корзина</string>
+    <string name="amount" translatable="false">1</string>
+    <string name="order">Заказать</string>
 </resources>

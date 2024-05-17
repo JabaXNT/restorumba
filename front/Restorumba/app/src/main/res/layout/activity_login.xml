@@ -5,14 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/light_theme_background">
+    style="@style/ScreenBackground">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="360dp"
         android:layout_height="284dp"
         android:background="@drawable/rounded_bottom_rectangle_shape"
-        android:backgroundTint="#FFFFFF"
+        style="@style/CardBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -41,7 +41,7 @@
             android:layout_height="30dp"
             android:fontFamily="@font/nunito"
             android:text="@string/login"
-            android:textColor="#170C10"
+            style="@style/TextColor"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -59,7 +59,7 @@
             android:clickable="true"
             android:focusable="true"
             android:text="@string/reg"
-            android:textColor="#170C10"
+            style="@style/TextColor"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -69,86 +69,61 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/сonstraintLayout3"
-        android:layout_width="280dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="35dp"
-        android:backgroundTint="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
+    <TextView
+        android:id="@+id/textView12"
+        style="@style/HintTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:text="@string/phone"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="35dp"/>
 
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/nunito"
-            android:hint="@string/user_phone"
-            android:textColor="#170C10"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/nunito"
-            android:text="@string/phone"
-            android:textColor="#170C10"
-            android:textSize="16sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:layout_width="280dp"
-            android:layout_height="1dp"
-            android:background="@drawable/underline_1"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/сonstraintLayout4"
+    <EditText
+        android:id="@+id/phoneInput"
+        style="@style/TextColor"
         android:layout_width="280dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="35dp"
-        android:backgroundTint="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:fontFamily="@font/nunito"
+        android:hint="@string/user_phone"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/сonstraintLayout3">
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        android:singleLine="true"
+        android:autofillHints="phone"
+        android:inputType="phone"/>
 
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/nunito"
-            android:textColor="#170C10"
-            android:hint="@string/user_password"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+    <EditText
+        android:id="@+id/passwordInput"
+        style="@style/TextColor"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:hint="@string/user_password"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        android:layout_marginStart="36dp"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:singleLine="true"/>
 
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/nunito"
-            android:text="@string/password"
-            android:textColor="#170C10"
-            android:textSize="16sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:layout_width="280dp"
-            android:layout_height="1dp"
-            android:background="@drawable/underline_1"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView14"
+        style="@style/HintTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:text="@string/password"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneInput"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="40dp"/>
 
     <Button
         android:id="@+id/button"
@@ -166,6 +141,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:paddingTop="3dp"/>
+        android:paddingTop="5dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
