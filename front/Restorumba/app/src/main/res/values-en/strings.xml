@@ -20,6 +20,7 @@
     <string name="card_option">Card</string>
     <string name="fps">FPS</string>
     <string name="add_new_card">Add new card</string>
+    <string name="choose_avatar">Choose avatar</string>
     <string name="basket">Basket</string>
     <string name="order">Make order</string>
     <string name="order_history">Order history</string>

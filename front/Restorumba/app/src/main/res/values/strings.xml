@@ -24,11 +24,10 @@
     <string name="salads">Салаты</string>
     <string name="snacks">Снеки</string>
     <string name="combos">Комбо</string>
-    <string name="dish_description" translatable="false">Нежнейшее филе воды в собственном соку.
-        Подается с хрустящими хлебными палочками.</string>
-    <string name="old_price" translatable="false">429₽</string>
-    <string name="current_price" translatable="false">359₽</string>
-    <string name="current_dish" translatable="false">Филе воды</string>
+    <string name="dish_description" translatable="false">Хочешь узнать что это за блюдо? Тряси смартфон!</string>
+    <string name="old_price" translatable="false"></string>
+    <string name="current_price" translatable="false">*** ₽</string>
+    <string name="current_dish" translatable="false">***</string>
     <string name="desc_title" translatable="false">Описание:</string>
     <string name="button_text" translatable="false">Bamboo</string>
 
@@ -57,6 +56,7 @@
     <string name="save">Сохранить</string>
     <string name="email">Почта</string>
     <string name="user_email" translatable="false">example@mail.ru</string>
+    <string name="choose_avatar">Выберите аватар</string>
 
     #Basket Strings
     <string name="basket">Корзина</string>

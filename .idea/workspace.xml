@@ -5,29 +5,130 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52da3257-1164-43c6-8146-7a063e4b18c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/dark_preview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/night_theme_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/radio_button_selector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/SettingsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/SettingsActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/light_theme_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/light_theme_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/preview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/light_preview.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_basket.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_basket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/ic_profile_picture_3-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/ic_profile_picture_4-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/ic_profile_picture_5-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/ic_profile_picture_6-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/ic_profile_picture_7-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/ic_profile_picture_8-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/ic_profile_picture_3_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/ic_profile_picture_4_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/ic_profile_picture_5_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/ic_profile_picture_6_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/ic_profile_picture_7_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/ic_profile_picture_8_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/profile_picture.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_restaraunt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_3_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_4_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_5_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_6_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_7_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_profile_picture_8_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_3_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_3_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_4_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_4_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_5_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_5_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_6_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_6_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_7_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_7_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_8_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_profile_picture_8_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_3_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_3_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_4_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_4_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_5_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_5_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_6_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_6_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_7_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_7_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_8_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_profile_picture_8_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_3_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_3_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_4_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_4_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_5_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_5_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_6_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_6_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_7_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_7_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_8_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_profile_picture_8_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_3_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_3_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_4_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_4_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_5_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_5_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_6_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_6_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_7_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_7_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_8_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_profile_picture_8_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_3_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_3_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_4_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_4_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_5_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_5_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_6_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_6_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_7_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_7_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_8_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_profile_picture_8_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/EditProfileActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/EditProfileActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_edit_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_edit_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_order.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_order_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_order_history.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_paying_options.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_paying_options.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_reg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_reg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values-en/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values-en/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/icons/preview.svg" beforeDir="false" afterPath="$PROJECT_DIR$/front/icons/preview.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/icons/profile_picture_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/front/icons/profile_picture_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/icons/profile_picture_taco.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
