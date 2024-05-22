@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
@@ -19,6 +20,19 @@ class ProfileActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+        val name: String? = intent.getStringExtra("name")
+        val phone: String? = intent.getStringExtra("phone")
+        val password: String? = intent.getStringExtra("password")
+
+        val userName: TextView = findViewById(R.id.name)
+        val userPhone: TextView = findViewById(R.id.phone)
+
+        if (name != null) {
+            userName.text = name
+        }
+        if (phone != null) {
+            userPhone.text = phone
         }
 
         val linkToOrder: ImageButton = findViewById(R.id.link_to_order)
@@ -36,6 +50,9 @@ class ProfileActivity : AppCompatActivity() {
 
         linkToEdit.setOnClickListener {
             val intent = Intent(this, EditProfileActivity::class.java)
+            intent.putExtra("name", name)
+            intent.putExtra("phone", phone)
+            intent.putExtra("password", password)
             startActivity(intent)
             finish()
         }

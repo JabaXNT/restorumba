@@ -38,10 +38,14 @@ class EditProfileActivity : AppCompatActivity() {
         val profilePicture: ImageButton = findViewById(R.id.profile_picture)
         val profileChooseMenu: ConstraintLayout = findViewById(R.id.menu)
         val close: ImageButton = findViewById(R.id.close)
-        val name: EditText = findViewById(R.id.name)
-        val phone: EditText = findViewById(R.id.phoneNumber)
-        val email: EditText = findViewById(R.id.email)
-        val password: EditText = findViewById(R.id.password)
+        val nameInput: EditText = findViewById(R.id.name)
+        val phoneInput: EditText = findViewById(R.id.phoneNumber)
+        val emailInput: EditText = findViewById(R.id.email)
+        val passwordInput: EditText = findViewById(R.id.password)
+
+        val name: String? = intent.getStringExtra("name")
+        val phone: String? = intent.getStringExtra("phone")
+        val password: String? = intent.getStringExtra("password")
 
         var isMenuOpen = false
 
@@ -58,10 +62,10 @@ class EditProfileActivity : AppCompatActivity() {
         for (chosenPic in profilePictures) {
             chosenPic.setOnClickListener {
                 profileChooseMenu.visibility = View.GONE
-                name.isEnabled = true
-                phone.isEnabled = true
-                email.isEnabled = true
-                password.isEnabled = true
+                nameInput.isEnabled = true
+                phoneInput.isEnabled = true
+                emailInput.isEnabled = true
+                passwordInput.isEnabled = true
                 homeButton.isEnabled = true
                 isMenuOpen = false
                 profilePicture.setBackgroundResource(R.drawable.profile_picture)
@@ -71,18 +75,18 @@ class EditProfileActivity : AppCompatActivity() {
         profilePicture.setOnClickListener {
             if (isMenuOpen) {
                 profileChooseMenu.visibility = View.GONE
-                name.isEnabled = true
-                phone.isEnabled = true
-                email.isEnabled = true
-                password.isEnabled = true
+                nameInput.isEnabled = true
+                phoneInput.isEnabled = true
+                emailInput.isEnabled = true
+                passwordInput.isEnabled = true
                 homeButton.isEnabled = true
                 isMenuOpen = false
             } else {
                 profileChooseMenu.visibility = View.VISIBLE
-                name.isEnabled = false
-                phone.isEnabled = false
-                email.isEnabled = false
-                password.isEnabled = false
+                nameInput.isEnabled = false
+                phoneInput.isEnabled = false
+                emailInput.isEnabled = false
+                passwordInput.isEnabled = false
                 homeButton.isEnabled = false
                 isMenuOpen = true
             }
@@ -90,38 +94,63 @@ class EditProfileActivity : AppCompatActivity() {
 
         close.setOnClickListener {
             profileChooseMenu.visibility = View.GONE
-            name.isEnabled = true
-            phone.isEnabled = true
-            email.isEnabled = true
-            password.isEnabled = true
+            nameInput.isEnabled = true
+            phoneInput.isEnabled = true
+            emailInput.isEnabled = true
+            passwordInput.isEnabled = true
             homeButton.isEnabled = true
             isMenuOpen = false
         }
 
-        homeButton.setOnClickListener {
-            val intent = Intent(this, ProfileActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
-
         saveButton.setOnClickListener {
             val nameEdit: SharedPreferences.Editor = namePref.edit()
-            nameEdit.putString(nameSaveKey, name.text.toString())
+            nameEdit.putString(nameSaveKey, nameInput.text.toString())
             val phoneEdit: SharedPreferences.Editor = phonePref.edit()
-            phoneEdit.putString(phoneSaveKey, phone.text.toString())
+            phoneEdit.putString(phoneSaveKey, phoneInput.text.toString())
             val emailEdit: SharedPreferences.Editor = emailPref.edit()
-            emailEdit.putString(emailSaveKey, phone.text.toString())
+            emailEdit.putString(emailSaveKey, emailInput.text.toString())
             val passwordEdit: SharedPreferences.Editor = passwordPref.edit()
-            passwordEdit.putString(passSaveKey, phone.text.toString())
+            passwordEdit.putString(passSaveKey, passwordInput.text.toString())
             nameEdit.apply()
             phoneEdit.apply()
             emailEdit.apply()
             passwordEdit.apply()
         }
 
-        name.setText(namePref.getString(nameSaveKey, ""))
-        phone.setText(namePref.getString(phoneSaveKey, ""))
-        email.setText(namePref.getString(emailSaveKey, ""))
-        password.setText(namePref.getString(passSaveKey, ""))
+        nameInput.setText(namePref.getString(nameSaveKey, ""))
+        phoneInput.setText(phonePref.getString(phoneSaveKey, ""))
+        emailInput.setText(emailPref.getString(emailSaveKey, ""))
+        passwordInput.setText(passwordPref.getString(passSaveKey, ""))
+
+        if (name != null) {
+            nameInput.setText(name)
+        }
+        if (password != null) {
+            passwordInput.setText(password)
+        }
+        if (phone != null) {
+            phoneInput.setText(phone)
+        }
+
+        val visible: ImageButton = findViewById(R.id.opened)
+        val invisible: ImageButton = findViewById(R.id.closed)
+
+        visible.setOnClickListener {
+            visible.visibility = View.GONE
+            invisible.visibility = View.VISIBLE
+        }
+
+        invisible.setOnClickListener {
+            invisible.visibility = View.GONE
+            visible.visibility = View.VISIBLE
+        }
+
+        homeButton.setOnClickListener {
+            val intent = Intent(this, ProfileActivity::class.java)
+            intent.putExtra("name", nameInput.text)
+            intent.putExtra("phone", phoneInput.text)
+            startActivity(intent)
+            finish()
+        }
     }
 }

@@ -34,6 +34,8 @@
     <string name="snacks">Snacks</string>
     <string name="combos">Combo</string>
     <string name="back">Back</string>
+    <string name="button_text">Shake</string>
     <string name="profile">Profile</string>
     <string name="exit">Exit</string>
+    <string name="wrong_fields">Incorrect phone number</string>
 </resources>

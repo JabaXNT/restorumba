@@ -150,7 +150,7 @@
 
         <EditText
             android:id="@+id/password"
-            android:layout_width="150dp"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="138dp"
             android:fontFamily="@font/nunito_semibold"
@@ -162,6 +162,28 @@
             app:layout_constraintTop_toTopOf="@+id/textView34"
             android:singleLine="true"
             android:inputType="textPassword"/>
+
+        <ImageButton
+            android:id="@+id/opened"
+            android:visibility="gone"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="8dp"
+            android:background="@mipmap/ic_eye_foreground"
+            app:layout_constraintBottom_toBottomOf="@+id/password"
+            app:layout_constraintStart_toEndOf="@+id/password"
+            android:layout_marginStart="10dp"/>
+
+        <ImageButton
+            android:id="@+id/closed"
+            android:visibility="visible"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="8dp"
+            android:background="@mipmap/ic_eye_closed_foreground"
+            app:layout_constraintBottom_toBottomOf="@+id/password"
+            app:layout_constraintStart_toEndOf="@+id/password"
+            android:layout_marginStart="10dp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -38,12 +38,17 @@ class LoginActivity : AppCompatActivity() {
         button.setOnClickListener {
             val password = passwordInput.text.toString().trim()
             val phone = phoneInput.text.toString().trim()
-            val text = getResources().getString(R.string.empty_fields);
+            val emptyText = getResources().getString(R.string.empty_fields);
+            val wrongText = getResources().getString(R.string.wrong_fields);
 
             if (password == "" || phone == "") {
-                Toast.makeText(this, text, Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, emptyText, Toast.LENGTH_SHORT).show()
+            } else if (phone.length > 13) {
+                Toast.makeText(this, wrongText, Toast.LENGTH_SHORT).show()
             } else {
                 val intent = Intent(this, OrderActivity::class.java)
+                intent.putExtra("phone", phone)
+                intent.putExtra("password", password)
                 startActivity(intent)
                 finish()
             }

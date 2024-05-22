@@ -10,6 +10,7 @@
     <string name="user_phone" translatable="false">8800553535</string>
     <string name="user_password" translatable="false">*********</string>
     <string name="empty_fields">Пустые поля</string>
+    <string name="wrong_fields">Некорректный номер телефона</string>
 
     #Reg Strings
     <string name="name">Имя</string>
@@ -29,7 +30,7 @@
     <string name="current_price" translatable="false">*** ₽</string>
     <string name="current_dish" translatable="false">***</string>
     <string name="desc_title" translatable="false">Описание:</string>
-    <string name="button_text" translatable="false">Bamboo</string>
+    <string name="button_text">Потрясти</string>
 
     #Profile Strings
     <string name="profile">Профиль</string>

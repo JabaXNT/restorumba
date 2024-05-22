@@ -191,26 +191,6 @@
             app:layout_constraintStart_toEndOf="@+id/textView20" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <HorizontalScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="220dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="34dp">
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="170dp"
-            android:layout_height="130dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/current_price"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </HorizontalScrollView>
-
     <ImageButton
         android:id="@+id/link_to_basket"
         android:layout_width="wrap_content"

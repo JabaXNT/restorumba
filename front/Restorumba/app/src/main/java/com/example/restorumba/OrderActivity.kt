@@ -19,18 +19,25 @@ class OrderActivity : AppCompatActivity() {
             insets
         }
 
+        val name: String? = intent.getStringExtra("name")
+        val phone: String? = intent.getStringExtra("phone")
+        val pass: String? = intent.getStringExtra("password")
+
         val linkToBasket: ImageButton = findViewById(R.id.link_to_basket)
         val linkToProfile: ImageButton = findViewById(R.id.link_to_profile)
 
         linkToBasket.setOnClickListener {
-            val intent = Intent(this, BasketActivity::class.java)
-            startActivity(intent)
+            val basketIntent = Intent(this, BasketActivity::class.java)
+            startActivity(basketIntent)
             finish()
         }
 
         linkToProfile.setOnClickListener {
-            val intent = Intent(this, ProfileActivity::class.java)
-            startActivity(intent)
+            val profIntent = Intent(this, ProfileActivity::class.java)
+            profIntent.putExtra("phone", phone)
+            profIntent.putExtra("name", name)
+            profIntent.putExtra("password", pass)
+            startActivity(profIntent)
             finish()
         }
     }
