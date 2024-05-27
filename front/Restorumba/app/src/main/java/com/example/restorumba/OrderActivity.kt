@@ -2,6 +2,7 @@ package com.example.restorumba
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -25,6 +26,7 @@ class OrderActivity : AppCompatActivity() {
 
         val linkToBasket: ImageButton = findViewById(R.id.link_to_basket)
         val linkToProfile: ImageButton = findViewById(R.id.link_to_profile)
+        val shakeButton: Button = findViewById(R.id.shake)
 
         linkToBasket.setOnClickListener {
             val basketIntent = Intent(this, BasketActivity::class.java)
@@ -39,6 +41,10 @@ class OrderActivity : AppCompatActivity() {
             profIntent.putExtra("password", pass)
             startActivity(profIntent)
             finish()
+        }
+
+        shakeButton.setOnClickListener {
+            val randomNum = (0..1).random()
         }
     }
 }
