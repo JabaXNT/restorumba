@@ -50,8 +50,12 @@ class UserService(
         return userRepository.findByName(username)
     }
 
+    fun getUserByPhoneNumber(phoneNumber: String): User? {
+        return userRepository.findByPhoneNumber(phoneNumber)
+    }
+
     fun updateUser(username: String, request: RegistrationRequest): UserResponse? {
-        val user = userRepository.findByName(username) ?: return null
+        val user = userRepository.findByPhoneNumber(username) ?: return null
 
         user.name = request.name
         user.phoneNumber = request.phoneNumber
@@ -67,7 +71,7 @@ class UserService(
     }
 
     fun deleteUser(username: String): Boolean {
-        val user = userRepository.findByName(username) ?: return false
+        val user = userRepository.findByPhoneNumber(username) ?: return false
 
         userRepository.delete(user)
 
