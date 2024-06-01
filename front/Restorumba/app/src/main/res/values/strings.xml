@@ -20,7 +20,7 @@
     <string name="to_reg">Зарегистрироваться</string>
 
     #Order Strings
-    <string name="address">Адрес</string>
+    <string name="address">Выберите адрес</string>
     <string name="drinks">Напитки</string>
     <string name="salads">Салаты</string>
     <string name="snacks">Снеки</string>
