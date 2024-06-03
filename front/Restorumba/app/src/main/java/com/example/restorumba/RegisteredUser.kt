@@ -1,4 +1,7 @@
 package com.example.restorumba
 
-class RegisteredUser {
-}
+data class RegisteredUser(
+    val phoneNumber: String,
+    val userPassword: String,
+    val name: String
+)

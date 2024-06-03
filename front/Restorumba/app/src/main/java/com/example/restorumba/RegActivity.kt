@@ -10,6 +10,13 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.io.OutputStreamWriter
+import java.net.HttpURLConnection
+import java.net.URL
+import java.net.URLEncoder
+import kotlin.concurrent.thread
 
 class RegActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,8 +42,13 @@ class RegActivity : AppCompatActivity() {
             finish()
         }
 
+        val apiService = APIService()
+
         button.setOnClickListener {
-            val name = nameInput.text.toString().trim()
+            thread {
+
+            }
+            /*val name = nameInput.text.toString().trim()
             val password = passwordInput.text.toString().trim()
             val phone = phoneInput.text.toString().trim()
             val emptyText = getResources().getString(R.string.empty_fields);
@@ -53,7 +65,7 @@ class RegActivity : AppCompatActivity() {
                 intent.putExtra("password", password)
                 startActivity(intent)
                 finish()
-            }
+            }*/
         }
     }
 }

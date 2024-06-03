@@ -1,4 +1,5 @@
 package com.example.restorumba
 
-class User {
-}
+data class User(
+    val jwtToken: String
+)

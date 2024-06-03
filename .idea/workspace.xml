@@ -5,55 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52da3257-1164-43c6-8146-7a063e4b18c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/ic_eye-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/ic_eye_closed-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/ic_eye_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/drawable/ic_eye_closed_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_eye.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_eye_closed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_eye_closed_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-anydpi-v26/ic_eye_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_eye.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_eye_closed.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_eye_closed_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_eye_closed_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_eye_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-hdpi/ic_eye_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_eye.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_eye_closed.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_eye_closed_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_eye_closed_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_eye_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-mdpi/ic_eye_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_eye.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_eye_closed.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_eye_closed_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_eye_closed_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_eye_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xhdpi/ic_eye_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_eye.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_eye_closed.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_eye_closed_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_eye_closed_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_eye_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxhdpi/ic_eye_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_eye.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_eye_closed.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_eye_closed_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_eye_closed_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_eye_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/mipmap-xxxhdpi/ic_eye_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/APIService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/RegisteredUser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/User.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/Restorumba/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/EditProfileActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/EditProfileActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/LoginActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/OrderActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/OrderActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/ProfileActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/ProfileActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/RegActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/java/com/example/restorumba/RegActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_edit_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_edit_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_order.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values-en/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values-en/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/Restorumba/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
