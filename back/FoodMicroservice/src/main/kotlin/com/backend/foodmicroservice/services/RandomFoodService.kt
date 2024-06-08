@@ -9,6 +9,7 @@ import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 import org.springframework.data.redis.core.RedisTemplate
 import org.springframework.data.redis.core.ValueOperations
+import org.springframework.http.ResponseEntity
 import org.springframework.http.codec.ClientCodecConfigurer
 import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Service
@@ -74,6 +75,21 @@ class RandomFoodService
 
         return restaurantName ?: "No restaurant name found in the API response"
     }
+
+    fun getFoodsByRestaurantAndCategory(restaurant: String, category: String): String {
+        val redisKey = "restaurant:$restaurant:category:$category:foods"
+        var foods = valueOps[redisKey]
+        if (foods == null) {
+            foods = foodRepository.findAllByRestaurantNameAndCategory(restaurant, category)
+            valueOps[redisKey] = foods
+        }
+        if (foods.isEmpty()) {
+            return "No food found for the given restaurant and category"
+        }
+        val randomFood = foods[Random.nextInt(foods.size)]
+        return randomFood.name
+    }
+
 
 //    @Scheduled(initialDelay = 1000)
     fun testing() {
